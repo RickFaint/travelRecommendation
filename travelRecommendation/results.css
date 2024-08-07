@@ -1,0 +1,27 @@
+
+#resultPanel {
+    display: none;
+}
+.resultPanelVisible {
+    width: 30%; /* Adjust the width as needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: to make the background semi-transparent */
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: to add a shadow effect */
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#prevButton{
+    display: none;
+}
+.butVisible{
+    display : block;
+}
+
+
+#nextButton {
+    display: none;
+}
+
