@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function fetchData(searchTerm) {
         try {
             // Fetch data from the local JSON file
-            const response = await fetch('http://localhost:8000/travel_recommendation_api.json');
+            const response = await fetch('travel_recommendation_api.json');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
